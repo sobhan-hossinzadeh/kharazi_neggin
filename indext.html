@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>خرازی نگین (حسین‌زاده)</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "IRANSans", sans-serif;
+        direction: rtl;
+        background: linear-gradient(135deg, #f0f0f0, #e6e6e6);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        min-height: 100vh;
+        padding-top: 40px;
+    }
+
+    .card {
+        background: #fff;
+        width: 90%;
+        max-width: 420px;
+        padding: 30px 25px;
+        border-radius: 22px;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+        text-align: center;
+        animation: fadeIn 0.8s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+        width: 150px;
+        margin-bottom: 25px;
+        border-radius: 18px;
+    }
+
+    .title {
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 25px;
+        color: #222;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        background: #111;
+        color: white;
+        text-decoration: none;
+        padding: 16px;
+        border-radius: 14px;
+        margin-bottom: 18px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+        opacity: 0.95;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- لوگو -->
+    <img src="card.png" class="logo" alt="business card">
+
+    <div class="title">خرازی نگین (حسین‌زاده)</div>
+
+    <!-- دکمه اینستاگرام -->
+    <a class="btn" target="_blank" href="https://instagram.com/kharazi_neggin">
+        اینستاگرام
+    </a>
+
+    <!-- دکمه تماس -->
+    <a class="btn" href="tel:09151043550">
+        تماس تلفنی
+    </a>
+
+    <!-- دکمه دانلود کارت (اجباری دانلود) -->
+    <a class="btn" href="card.png" download="kharazi-negin-card.png">
+        ذخیره کارت ویزیت
+    </a>
+
+</div>
+
+</body>
+</html>
